@@ -78,3 +78,6 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 >>>>>>> Stashed changes
+
+!ENTRY org.eclipse.equinox.security 1 0 2017-05-17 11:59:35.373
+!MESSAGE New keyring password generated. 

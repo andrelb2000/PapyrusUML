@@ -24,6 +24,18 @@
     <element xmi:type="uml:Component" href="PySwarmBot.uml#_mFe10DsQEeeWWfZIDlYWxQ"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mGilwTsQEeeWWfZIDlYWxQ" x="779" y="79"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_RUjIEDsREeej3rYq_QUW2Q" type="Component_PackagedElementShape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RUlkUDsREeej3rYq_QUW2Q" type="Component_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RUlkUTsREeej3rYq_QUW2Q" type="Component_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RUlkUjsREeej3rYq_QUW2Q" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_RUmLYDsREeej3rYq_QUW2Q" type="Component_StructureCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_RUmLYTsREeej3rYq_QUW2Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RUmLYjsREeej3rYq_QUW2Q"/>
+    </children>
+    <element xmi:type="uml:Component" href="PySwarmBot.uml#_RS3GADsREeej3rYq_QUW2Q"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RUjIETsREeej3rYq_QUW2Q" x="1195" y="98"/>
+  </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_my8dMDpqEeeWWfZIDlYWxQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_my8dMTpqEeeWWfZIDlYWxQ"/>
   <styles xmi:type="style:PapyrusViewStyle" xmi:id="_my8dMjpqEeeWWfZIDlYWxQ">

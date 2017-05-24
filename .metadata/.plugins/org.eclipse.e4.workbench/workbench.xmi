@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;PySwarmBot.di&quot; tooltip=&quot;PySwarmBot/PySwarmBot.di&quot;>&#xA;&lt;persistable path=&quot;/PySwarmBot/PySwarmBot.di&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;properties.index&quot; tooltip=&quot;/home/andre/github/Papyrus/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index&quot;>&#xA;&lt;persistable uri=&quot;file:/home/andre/github/Papyrus/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_VvkbwjpqEeeWWfZIDlYWxQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_XFLj0DpqEeeWWfZIDlYWxQ" x="441" y="158" width="1489" height="722">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_VvkbwjpqEeeWWfZIDlYWxQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_XFLj0DpqEeeWWfZIDlYWxQ" x="230" y="24" width="1489" height="1148">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -11,6 +11,7 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId"/>
     <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_XFLj0DpqEeeWWfZIDlYWxQ" selectedElement="_XFMK4DpqEeeWWfZIDlYWxQ" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_XFMK4DpqEeeWWfZIDlYWxQ" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_Xc78gDpqEeeWWfZIDlYWxQ">
         <children xsi:type="advanced:Perspective" xmi:id="_Xc78gDpqEeeWWfZIDlYWxQ" elementId="org.eclipse.papyrus.infra.core.perspective" selectedElement="_Xc78gTpqEeeWWfZIDlYWxQ" label="Papyrus" iconURI="platform:/plugin/org.eclipse.papyrus.uml.perspective/icons/Papyrus_16x16.gif">
@@ -39,7 +40,7 @@
           <tags>persp.perspSC:org.eclipse.ui.resourcePerspective</tags>
           <tags>persp.perspSC:org.eclipse.jdt.ui.JavaPerspective</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_Xc78gTpqEeeWWfZIDlYWxQ" selectedElement="_Xc78ijpqEeeWWfZIDlYWxQ" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_Xc78gjpqEeeWWfZIDlYWxQ" containerData="2272" selectedElement="_Xc78gzpqEeeWWfZIDlYWxQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_Xc78gjpqEeeWWfZIDlYWxQ" containerData="2272" selectedElement="_Xc78hTpqEeeWWfZIDlYWxQ">
               <children xsi:type="basic:PartStack" xmi:id="_Xc78gzpqEeeWWfZIDlYWxQ" elementId="org.eclipse.ui.navigator.ProjectExplorerMStack" containerData="3300" selectedElement="_Xc78hDpqEeeWWfZIDlYWxQ">
                 <children xsi:type="advanced:Placeholder" xmi:id="_Xc78hDpqEeeWWfZIDlYWxQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_XcvvQDpqEeeWWfZIDlYWxQ"/>
               </children>
@@ -52,12 +53,10 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_Xc78ijpqEeeWWfZIDlYWxQ" containerData="7728" selectedElement="_Xc78jDpqEeeWWfZIDlYWxQ">
-              <children xsi:type="advanced:Placeholder" xmi:id="_Xc78izpqEeeWWfZIDlYWxQ" elementId="org.eclipse.ui.editorss" containerData="1000" ref="_Xcf3oDpqEeeWWfZIDlYWxQ"/>
-              <children xsi:type="basic:PartStack" xmi:id="_Xc78jDpqEeeWWfZIDlYWxQ" elementId="org.eclipse.papyrus.perspective.folder.bottom" containerData="9000" selectedElement="_zgNaADpqEeeWWfZIDlYWxQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_Xc78ijpqEeeWWfZIDlYWxQ" containerData="7728" selectedElement="_Xc78izpqEeeWWfZIDlYWxQ">
+              <children xsi:type="advanced:Placeholder" xmi:id="_Xc78izpqEeeWWfZIDlYWxQ" elementId="org.eclipse.ui.editorss" containerData="7253" ref="_Xcf3oDpqEeeWWfZIDlYWxQ"/>
+              <children xsi:type="basic:PartStack" xmi:id="_Xc78jDpqEeeWWfZIDlYWxQ" elementId="org.eclipse.papyrus.perspective.folder.bottom" containerData="2747" selectedElement="_zgNaADpqEeeWWfZIDlYWxQ">
                 <tags>Git</tags>
-                <tags>active</tags>
-                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_Xc78jTpqEeeWWfZIDlYWxQ" elementId="org.eclipse.ui.views.PropertySheet" ref="_Xc0nwDpqEeeWWfZIDlYWxQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_Xc78jjpqEeeWWfZIDlYWxQ" elementId="org.eclipse.papyrus.views.validation.ModelValidationView" ref="_Xc1O0DpqEeeWWfZIDlYWxQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_Xc78jzpqEeeWWfZIDlYWxQ" elementId="org.eclipse.papyrus.views.references.ReferencesView" ref="_Xc6HUDpqEeeWWfZIDlYWxQ"/>
@@ -93,15 +92,18 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_Xcf3oDpqEeeWWfZIDlYWxQ" elementId="org.eclipse.ui.editorss" selectedElement="_Xcf3oTpqEeeWWfZIDlYWxQ">
-      <children xsi:type="basic:PartStack" xmi:id="_Xcf3oTpqEeeWWfZIDlYWxQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_AZQNUD2-EeedevAfF7RPZQ">
+      <children xsi:type="basic:PartStack" xmi:id="_Xcf3oTpqEeeWWfZIDlYWxQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_qj4XsECKEeeKC6AirgALSA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
         <tags>noFocus</tags>
-        <children xsi:type="basic:Part" xmi:id="_AZQNUD2-EeedevAfF7RPZQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PySwarmBot.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
+        <children xsi:type="basic:Part" xmi:id="_qj4XsECKEeeKC6AirgALSA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PySwarmBot.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;PySwarmBot.di&quot; partName=&quot;PySwarmBot.di&quot; title=&quot;PySwarmBot.di&quot; tooltip=&quot;PySwarmBot/PySwarmBot.di&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/PySwarmBot/PySwarmBot.di&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
           <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -177,8 +179,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Git</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_zhArQDpqEeeWWfZIDlYWxQ" elementId="org.eclipse.egit.ui.StagingView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -204,7 +204,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XO0A8DpqEeeWWfZIDlYWxQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_PasyED2kEeedevAfF7RPZQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_VyOuUDpqEeeWWfZIDlYWxQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_MrkEIECKEeeKC6AirgALSA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_VyOuUDpqEeeWWfZIDlYWxQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XO0oADpqEeeWWfZIDlYWxQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -225,7 +225,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XO1PEDpqEeeWWfZIDlYWxQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Pay4sD2kEeedevAfF7RPZQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_VyM5HDpqEeeWWfZIDlYWxQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Mro8oECKEeeKC6AirgALSA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_VyM5HDpqEeeWWfZIDlYWxQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XO1PETpqEeeWWfZIDlYWxQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2856,7 +2856,7 @@
   <addons xmi:id="_VvlC4TpqEeeWWfZIDlYWxQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_VvlC4jpqEeeWWfZIDlYWxQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_VwMG0DpqEeeWWfZIDlYWxQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_NHkR0T2kEeedevAfF7RPZQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_VxuX4DpqEeeWWfZIDlYWxQ" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_Vxu-8DpqEeeWWfZIDlYWxQ" elementId="org.eclipse.papyrus.infra.nattable.rows.command.category" name="NatTable Rows Catgerory" description="This category is used for all rows commands"/>

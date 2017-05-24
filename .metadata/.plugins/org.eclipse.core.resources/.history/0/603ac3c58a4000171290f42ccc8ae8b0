@@ -11,7 +11,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gYtooTsCEeeWWfZIDlYWxQ"/>
       </children>
       <element xmi:type="uml:Component" href="PySwarmBot.uml#_gUpA8DsCEeeWWfZIDlYWxQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gWCIETsCEeeWWfZIDlYWxQ" x="784" y="26"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gWCIETsCEeeWWfZIDlYWxQ" x="822" y="25"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_mGilwDsQEeeWWfZIDlYWxQ" type="Component_PackagedElementShape">
       <children xmi:type="notation:DecorationNode" xmi:id="_mGzEcDsQEeeWWfZIDlYWxQ" type="Component_NameLabel"/>
@@ -266,14 +266,13 @@
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_Z40IAD2qEeedevAfF7RPZQ" type="Generalization_Edge" source="_kYONgD2nEeedevAfF7RPZQ" target="_gWCIEDsCEeeWWfZIDlYWxQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_Z40vED2qEeedevAfF7RPZQ" type="Generalization_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_w7YsUECKEeeKC6AirgALSA" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Z40vET2qEeedevAfF7RPZQ" x="1" y="39"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Z40vET2qEeedevAfF7RPZQ" y="40"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_Z40IAT2qEeedevAfF7RPZQ"/>
       <element xmi:type="uml:Generalization" href="PySwarmBot.uml#_Z4gmAD2qEeedevAfF7RPZQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Z40IAj2qEeedevAfF7RPZQ" points="[887, 162, -643984, -643984]$[888, 91, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z5XhoD2qEeedevAfF7RPZQ" id="(0.5013793103448272,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z5YIsD2qEeedevAfF7RPZQ" id="(0.4361685823754786,1.0)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z5XhoD2qEeedevAfF7RPZQ" id="(0.5133333333333333,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z5YIsD2qEeedevAfF7RPZQ" id="(0.44666666666666666,0.9714285714285714)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_a1i2AD2qEeedevAfF7RPZQ" type="Generalization_Edge" source="_dbEjQD2pEeedevAfF7RPZQ" target="_PnHWED2nEeedevAfF7RPZQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_a1i2Az2qEeedevAfF7RPZQ" type="Generalization_StereotypeLabel">

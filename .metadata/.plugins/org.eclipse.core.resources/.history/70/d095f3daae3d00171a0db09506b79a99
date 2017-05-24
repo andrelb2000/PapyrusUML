@@ -26,9 +26,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_LnRNoD2tEeedevAfF7RPZQ" name="Swarm2D">
     <packagedElement xmi:type="uml:Package" xmi:id="_Y8x2MD2tEeedevAfF7RPZQ" name="Sim2D">
-      <packagedElement xmi:type="uml:Component" xmi:id="_mFe10DsQEeeWWfZIDlYWxQ" name="SwarmBot">
-        <packagedElement xmi:type="uml:Class" xmi:id="_xMUG4D2uEeedevAfF7RPZQ" name="CellBot"/>
-      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_mFe10DsQEeeWWfZIDlYWxQ" name="SwarmBot"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_cAxLoD2tEeedevAfF7RPZQ" name="Bot2D">
       <packagedElement xmi:type="uml:Component" xmi:id="_FPAksD2lEeedevAfF7RPZQ" name="CellBot"/>

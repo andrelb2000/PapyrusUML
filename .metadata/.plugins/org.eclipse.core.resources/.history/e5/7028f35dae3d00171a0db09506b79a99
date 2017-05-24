@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_mvHGEDpqEeeWWfZIDlYWxQ" name="RootElement">
+  <packagedElement xmi:type="uml:Component" xmi:id="_gUpA8DsCEeeWWfZIDlYWxQ" name="SwarmView"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_mFe10DsQEeeWWfZIDlYWxQ" name="SwarmBot"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_RS3GADsREeej3rYq_QUW2Q" name="SwarmControlView"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_FPAksD2lEeedevAfF7RPZQ" name="CellBot"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_Ey_sMD2nEeedevAfF7RPZQ" name="CellHub"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_53PzgD2qEeedevAfF7RPZQ" name="UAV">
     <packagedElement xmi:type="uml:Package" xmi:id="_G8ekYD2rEeedevAfF7RPZQ" name="UAVSim">
       <packagedElement xmi:type="uml:Component" xmi:id="_dbBf8D2pEeedevAfF7RPZQ" name="SwarmBotUAV">
@@ -25,19 +30,9 @@
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_LnRNoD2tEeedevAfF7RPZQ" name="Swarm2D">
-    <packagedElement xmi:type="uml:Package" xmi:id="_Y8x2MD2tEeedevAfF7RPZQ" name="Sim2D">
-      <packagedElement xmi:type="uml:Component" xmi:id="_mFe10DsQEeeWWfZIDlYWxQ" name="SwarmBot">
-        <packagedElement xmi:type="uml:Class" xmi:id="_xMUG4D2uEeedevAfF7RPZQ" name="CellBot"/>
-      </packagedElement>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_cAxLoD2tEeedevAfF7RPZQ" name="Bot2D">
-      <packagedElement xmi:type="uml:Component" xmi:id="_FPAksD2lEeedevAfF7RPZQ" name="CellBot"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_Ey_sMD2nEeedevAfF7RPZQ" name="CellHub"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_hQR9cD2tEeedevAfF7RPZQ" name="2DGui">
-      <packagedElement xmi:type="uml:Component" xmi:id="_gUpA8DsCEeeWWfZIDlYWxQ" name="SwarmView"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_RS3GADsREeej3rYq_QUW2Q" name="SwarmControlView"/>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Y8x2MD2tEeedevAfF7RPZQ" name="Sim2D"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cAxLoD2tEeedevAfF7RPZQ" name="Bot2D"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hQR9cD2tEeedevAfF7RPZQ" name="2DGui"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_Qo1qED2tEeedevAfF7RPZQ" name="Swarm3D">
     <packagedElement xmi:type="uml:Package" xmi:id="_uaxBwD2tEeedevAfF7RPZQ" name="Sim3D">

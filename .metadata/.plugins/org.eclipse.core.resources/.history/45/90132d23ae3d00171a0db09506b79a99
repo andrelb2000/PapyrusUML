@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_mvHGEDpqEeeWWfZIDlYWxQ" name="RootElement">
+  <packagedElement xmi:type="uml:Component" xmi:id="_gUpA8DsCEeeWWfZIDlYWxQ" name="SwarmView"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_mFe10DsQEeeWWfZIDlYWxQ" name="SwarmBot"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_RS3GADsREeej3rYq_QUW2Q" name="SwarmControlView"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_FPAksD2lEeedevAfF7RPZQ" name="CellBot"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_-6IQ0D2lEeedevAfF7RPZQ" name="CellBot3D">
+    <generalization xmi:type="uml:Generalization" xmi:id="_E1CJAD2mEeedevAfF7RPZQ" general="_FPAksD2lEeedevAfF7RPZQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_Ey_sMD2nEeedevAfF7RPZQ" name="CellHub"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_PnB2gD2nEeedevAfF7RPZQ" name="SwarmBot3D">
+    <generalization xmi:type="uml:Generalization" xmi:id="_XtVu8D2qEeedevAfF7RPZQ" general="_mFe10DsQEeeWWfZIDlYWxQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ZfJyMD2nEeedevAfF7RPZQ" name="CellHub3D">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Yqgh0D2qEeedevAfF7RPZQ" general="_Ey_sMD2nEeedevAfF7RPZQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_byGsQD2nEeedevAfF7RPZQ" name="SwarmControlView3D">
+    <generalization xmi:type="uml:Generalization" xmi:id="_ZUiWQD2qEeedevAfF7RPZQ" general="_RS3GADsREeej3rYq_QUW2Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_kYJVAD2nEeedevAfF7RPZQ" name="SwarmView3D">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Z4gmAD2qEeedevAfF7RPZQ" general="_gUpA8DsCEeeWWfZIDlYWxQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_53PzgD2qEeedevAfF7RPZQ" name="UAV">
+    <packagedElement xmi:type="uml:Package" xmi:id="_G8ekYD2rEeedevAfF7RPZQ" name="UAVSim">
+      <packagedElement xmi:type="uml:Component" xmi:id="_dbBf8D2pEeedevAfF7RPZQ" name="SwarmBotUAV">
+        <generalization xmi:type="uml:Generalization" xmi:id="_a1LpoD2qEeedevAfF7RPZQ" general="_PnB2gD2nEeedevAfF7RPZQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Qhq9AD2rEeedevAfF7RPZQ" name="UAVBot">
+      <packagedElement xmi:type="uml:Component" xmi:id="_l8MPwD2pEeedevAfF7RPZQ" name="CellBotUAV">
+        <generalization xmi:type="uml:Generalization" xmi:id="_bh_FQD2qEeedevAfF7RPZQ" general="_-6IQ0D2lEeedevAfF7RPZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_o_RmQD2pEeedevAfF7RPZQ" name="CellHubUAV">
+        <generalization xmi:type="uml:Generalization" xmi:id="_cNL-YD2qEeedevAfF7RPZQ" general="_ZfJyMD2nEeedevAfF7RPZQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ABiykD2rEeedevAfF7RPZQ" name="UAVGui">
+      <packagedElement xmi:type="uml:Component" xmi:id="_KV07QD2qEeedevAfF7RPZQ" name="SwarmControlViewUAV">
+        <generalization xmi:type="uml:Generalization" xmi:id="_cqzHcD2qEeedevAfF7RPZQ" general="_byGsQD2nEeedevAfF7RPZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_N_nscD2qEeedevAfF7RPZQ" name="SwarmViewUAV">
+        <generalization xmi:type="uml:Generalization" xmi:id="_dNchgD2qEeedevAfF7RPZQ" general="_kYJVAD2nEeedevAfF7RPZQ"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

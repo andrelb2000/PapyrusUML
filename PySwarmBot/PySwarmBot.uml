@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_mvHGEDpqEeeWWfZIDlYWxQ" name="PySwarmBot">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_mvHGEDpqEeeWWfZIDlYWxQ" name="PySwarmBot">
   <packagedElement xmi:type="uml:Package" xmi:id="_53PzgD2qEeedevAfF7RPZQ" name="UAV">
     <packagedElement xmi:type="uml:Package" xmi:id="_G8ekYD2rEeedevAfF7RPZQ" name="UAVSim">
       <packagedElement xmi:type="uml:Component" xmi:id="_dbBf8D2pEeedevAfF7RPZQ" name="SwarmBotUAV">
@@ -27,30 +27,58 @@
   <packagedElement xmi:type="uml:Package" xmi:id="_LnRNoD2tEeedevAfF7RPZQ" name="Swarm2D">
     <packagedElement xmi:type="uml:Package" xmi:id="_Y8x2MD2tEeedevAfF7RPZQ" name="Sim2D">
       <packagedElement xmi:type="uml:Component" xmi:id="_mFe10DsQEeeWWfZIDlYWxQ" name="SwarmBot">
-        <packagedElement xmi:type="uml:Class" xmi:id="_lNIuIEDaEeePbtoJfHET6w" name="SwarmBot"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_lNIuIEDaEeePbtoJfHET6w" name="SwarmBot">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_43paMkE4EeeGhdNe-rN1kw" name="_SimCellList_" type="_pV42wEDbEeePbtoJfHET6w" aggregation="shared" association="_43nlAEE4EeeGhdNe-rN1kw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I8nSoEE5EeeGhdNe-rN1kw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I8xqsEE5EeeGhdNe-rN1kw" value="*"/>
+          </ownedAttribute>
+        </nestedClassifier>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_cAxLoD2tEeedevAfF7RPZQ" name="Bot2D">
       <packagedElement xmi:type="uml:Component" xmi:id="_FPAksD2lEeedevAfF7RPZQ" name="CellBot">
-        <packagedElement xmi:type="uml:Class" xmi:id="_pV42wEDbEeePbtoJfHET6w" name="CellBot"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_rPakMEDbEeePbtoJfHET6w" name="CellBotObs"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_tUNGcEDbEeePbtoJfHET6w" name="CellBotTgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_pV42wEDbEeePbtoJfHET6w" name="CellBot">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Rbo0YUDsEeeGhdNe-rN1kw" name="_cellMovControl_" type="_vEiboEDbEeePbtoJfHET6w" aggregation="composite" association="_Rbm_MEDsEeeGhdNe-rN1kw"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_wOzmoEDsEeeGhdNe-rN1kw" name="_cellHub" type="_aMpxUEDcEeePbtoJfHET6w" aggregation="composite" association="_wOxxcEDsEeeGhdNe-rN1kw"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_QuaiAEDsEeeGhdNe-rN1kw" name="_cellMovProcessor_" type="_xR0ykEDbEeePbtoJfHET6w" aggregation="composite" association="_QtsJQEDsEeeGhdNe-rN1kw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rPakMEDbEeePbtoJfHET6w" name="CellBotObs">
+          <generalization xmi:type="uml:Generalization" xmi:id="_b2zywEDsEeeGhdNe-rN1kw" general="_pV42wEDbEeePbtoJfHET6w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tUNGcEDbEeePbtoJfHET6w" name="CellBotTgt">
+          <generalization xmi:type="uml:Generalization" xmi:id="_dMUNIEDsEeeGhdNe-rN1kw" general="_pV42wEDbEeePbtoJfHET6w"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_vEiboEDbEeePbtoJfHET6w" name="CellMovControl"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_xR0ykEDbEeePbtoJfHET6w" name="CellMovProcessor"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_Ey_sMD2nEeedevAfF7RPZQ" name="CellHub">
-        <packagedElement xmi:type="uml:Class" xmi:id="_aMpxUEDcEeePbtoJfHET6w" name="CellHub"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_cImgoEDcEeePbtoJfHET6w" name="CellHubObs"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_el2mMEDcEeePbtoJfHET6w" name="CellHubTgt"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_g_W0MEDcEeePbtoJfHET6w" name="CellMessage"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_g_W0MEDcEeePbtoJfHET6w" name="CellMessage"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aMpxUEDcEeePbtoJfHET6w" name="CellHub">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_0j7z0EDsEeeGhdNe-rN1kw" name="_CellListDescriptors_" type="_aMpxUEDcEeePbtoJfHET6w" aggregation="shared" association="_0j6lsEDsEeeGhdNe-rN1kw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EJoWUEDtEeeGhdNe-rN1kw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EJzVcEDtEeeGhdNe-rN1kw" value="*"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cImgoEDcEeePbtoJfHET6w" name="CellHubObs">
+          <generalization xmi:type="uml:Generalization" xmi:id="_ZKgIEEDtEeeGhdNe-rN1kw" general="_aMpxUEDcEeePbtoJfHET6w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_el2mMEDcEeePbtoJfHET6w" name="CellHubTgt">
+          <generalization xmi:type="uml:Generalization" xmi:id="_aBxHQEDtEeeGhdNe-rN1kw" general="_aMpxUEDcEeePbtoJfHET6w"/>
+        </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_kiUU4EDtEeeGhdNe-rN1kw" client="_pV42wEDbEeePbtoJfHET6w" supplier="_g_W0MEDcEeePbtoJfHET6w"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_lVNxcEDtEeeGhdNe-rN1kw" client="_aMpxUEDcEeePbtoJfHET6w" supplier="_g_W0MEDcEeePbtoJfHET6w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_hQR9cD2tEeedevAfF7RPZQ" name="2DGui">
       <packagedElement xmi:type="uml:Component" xmi:id="_gUpA8DsCEeeWWfZIDlYWxQ" name="SwarmView">
-        <packagedElement xmi:type="uml:Class" xmi:id="_SA8esEDdEeePbtoJfHET6w" name="SwarmView"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SA8esEDdEeePbtoJfHET6w" name="SwarmView">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_n7UmgkE5EeeGhdNe-rN1kw" name="_SwarmBot_" type="_lNIuIEDaEeePbtoJfHET6w" aggregation="composite" association="_n7SxUEE5EeeGhdNe-rN1kw"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_RS3GADsREeej3rYq_QUW2Q" name="SwarmControlView">
-        <packagedElement xmi:type="uml:Class" xmi:id="_TzkS4EDdEeePbtoJfHET6w" name="SwarmControlView"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_TzkS4EDdEeePbtoJfHET6w" name="SwarmControlView">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7JZk8kE5EeeGhdNe-rN1kw" name="_SwarmBot_" type="_lNIuIEDaEeePbtoJfHET6w" aggregation="composite" association="_7JY94EE5EeeGhdNe-rN1kw"/>
+        </nestedClassifier>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_BJ7WgECWEeeNK9VTwvjoDA" client="_LnRNoD2tEeedevAfF7RPZQ" supplier="_hQR9cD2tEeedevAfF7RPZQ"/>
@@ -91,20 +119,83 @@
   <packagedElement xmi:type="uml:Package" xmi:id="_dd2GMEDlEeePbtoJfHET6w" name="SwarmXD">
     <packagedElement xmi:type="uml:Package" xmi:id="_l0dy4EDlEeePbtoJfHET6w" name="SimXD">
       <packagedElement xmi:type="uml:Component" xmi:id="_A9sNgEDnEeePbtoJfHET6w" name="SwarmBotXD">
+        <generalization xmi:type="uml:Generalization" xmi:id="_UWyWQEFBEeeGhdNe-rN1kw" general="_mFe10DsQEeeWWfZIDlYWxQ"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_HAnZQEDnEeePbtoJfHET6w" name="SwarmBotXD"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_n7LAsEDlEeePbtoJfHET6w" name="BotXD">
-      <packagedElement xmi:type="uml:Component" xmi:id="_Lx5W8EDnEeePbtoJfHET6w" name="CellHubXD"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_P0x9kEDnEeePbtoJfHET6w" name="CellBotXD"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_Lx5W8EDnEeePbtoJfHET6w" name="CellHubXD">
+        <generalization xmi:type="uml:Generalization" xmi:id="_8L44gEFAEeeGhdNe-rN1kw" general="_Ey_sMD2nEeedevAfF7RPZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_P0x9kEDnEeePbtoJfHET6w" name="CellBotXD">
+        <generalization xmi:type="uml:Generalization" xmi:id="_7gPTcEFAEeeGhdNe-rN1kw" general="_FPAksD2lEeedevAfF7RPZQ"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_p1tawEDlEeePbtoJfHET6w" name="XDGui">
       <packagedElement xmi:type="uml:Component" xmi:id="_dCCpEEDnEeePbtoJfHET6w" name="SwarmControlViewXD">
         <packagedElement xmi:type="uml:Class" xmi:id="_kuPfwEDnEeePbtoJfHET6w" name="SwarmControlViewXD"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_g50L4EDnEeePbtoJfHET6w" name="SwarmViewXD">
+        <generalization xmi:type="uml:Generalization" xmi:id="_f_35QEFBEeeGhdNe-rN1kw" general="_gUpA8DsCEeeWWfZIDlYWxQ"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_pjVmcEDnEeePbtoJfHET6w" name="SwarmViewXD"/>
       </packagedElement>
     </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QtsJQEDsEeeGhdNe-rN1kw" memberEnd="_QuaiAEDsEeeGhdNe-rN1kw _QubwIEDsEeeGhdNe-rN1kw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QuNGoEDsEeeGhdNe-rN1kw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QuOUwEDsEeeGhdNe-rN1kw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QubwIEDsEeeGhdNe-rN1kw" type="_pV42wEDbEeePbtoJfHET6w" association="_QtsJQEDsEeeGhdNe-rN1kw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pNTvoEE1EeeGhdNe-rN1kw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pNcSgEE1EeeGhdNe-rN1kw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Rbm_MEDsEeeGhdNe-rN1kw" memberEnd="_Rbo0YUDsEeeGhdNe-rN1kw _RbpbcEDsEeeGhdNe-rN1kw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RboNUEDsEeeGhdNe-rN1kw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Rbo0YEDsEeeGhdNe-rN1kw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RbpbcEDsEeeGhdNe-rN1kw" type="_pV42wEDbEeePbtoJfHET6w" association="_Rbm_MEDsEeeGhdNe-rN1kw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wOxxcEDsEeeGhdNe-rN1kw" memberEnd="_wOzmoEDsEeeGhdNe-rN1kw _wOzmoUDsEeeGhdNe-rN1kw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wOy_kEDsEeeGhdNe-rN1kw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wOy_kUDsEeeGhdNe-rN1kw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wOzmoUDsEeeGhdNe-rN1kw" type="_pV42wEDbEeePbtoJfHET6w" association="_wOxxcEDsEeeGhdNe-rN1kw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0j6lsEDsEeeGhdNe-rN1kw" memberEnd="_0j7z0EDsEeeGhdNe-rN1kw _0j9B8EDsEeeGhdNe-rN1kw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0j7MwEDsEeeGhdNe-rN1kw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0j7MwUDsEeeGhdNe-rN1kw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0j9B8EDsEeeGhdNe-rN1kw" type="_aMpxUEDcEeePbtoJfHET6w" association="_0j6lsEDsEeeGhdNe-rN1kw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__XqcIEDsEeeGhdNe-rN1kw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__YkbEEDsEeeGhdNe-rN1kw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_43nlAEE4EeeGhdNe-rN1kw" memberEnd="_43paMkE4EeeGhdNe-rN1kw _43r2cEE4EeeGhdNe-rN1kw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_43paMEE4EeeGhdNe-rN1kw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_43paMUE4EeeGhdNe-rN1kw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_43r2cEE4EeeGhdNe-rN1kw" type="_lNIuIEDaEeePbtoJfHET6w" association="_43nlAEE4EeeGhdNe-rN1kw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8ULygEE4EeeGhdNe-rN1kw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8UR5IEE4EeeGhdNe-rN1kw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_n7SxUEE5EeeGhdNe-rN1kw" memberEnd="_n7UmgkE5EeeGhdNe-rN1kw _n7WbsEE5EeeGhdNe-rN1kw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n7UmgEE5EeeGhdNe-rN1kw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n7UmgUE5EeeGhdNe-rN1kw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_n7WbsEE5EeeGhdNe-rN1kw" type="_SA8esEDdEeePbtoJfHET6w" association="_n7SxUEE5EeeGhdNe-rN1kw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qRzVsEE5EeeGhdNe-rN1kw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qR6DYEE5EeeGhdNe-rN1kw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7JY94EE5EeeGhdNe-rN1kw" memberEnd="_7JZk8kE5EeeGhdNe-rN1kw _7JbaIEE5EeeGhdNe-rN1kw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7JZk8EE5EeeGhdNe-rN1kw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7JZk8UE5EeeGhdNe-rN1kw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7JbaIEE5EeeGhdNe-rN1kw" type="_TzkS4EDdEeePbtoJfHET6w" association="_7JY94EE5EeeGhdNe-rN1kw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AVQl0EE6EeeGhdNe-rN1kw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AVX6kEE6EeeGhdNe-rN1kw" value="1"/>
+    </ownedEnd>
   </packagedElement>
 </uml:Model>

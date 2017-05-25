@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <notation:Diagram xmi:id="_my72IDpqEeeWWfZIDlYWxQ" type="PapyrusUMLComponentDiagram" name="Component Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_YLR1cECaEeeNK9VTwvjoDA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YLR1ckCaEeeNK9VTwvjoDA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_YLR1c0CaEeeNK9VTwvjoDA" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_YLR1dECaEeeNK9VTwvjoDA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YLR1dUCaEeeNK9VTwvjoDA"/>
+      </children>
+      <element xmi:type="uml:Package" href="PySwarmBot.uml#_LnRNoD2tEeedevAfF7RPZQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YLR1cUCaEeeNK9VTwvjoDA" x="97" y="-19" width="1036"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_VlhJkECZEeeNK9VTwvjoDA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_VlhJkkCZEeeNK9VTwvjoDA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_VlhJk0CZEeeNK9VTwvjoDA" type="Package_PackagedElementCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_PnHWED2nEeedevAfF7RPZQ" type="Component_PackagedElementShape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_PnIkMD2nEeedevAfF7RPZQ" type="Component_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_PnIkMT2nEeedevAfF7RPZQ" type="Component_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_PnJLQD2nEeedevAfF7RPZQ" y="5"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_PnJLQT2nEeedevAfF7RPZQ" type="Component_StructureCompartment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_PnJLQj2nEeedevAfF7RPZQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PnJLQz2nEeedevAfF7RPZQ"/>
+          </children>
+          <element xmi:type="uml:Component" href="PySwarmBot.uml#_PnB2gD2nEeedevAfF7RPZQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PnHWET2nEeedevAfF7RPZQ" x="24" y="40" width="174"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-6O-gD2lEeedevAfF7RPZQ" type="Component_PackagedElementShape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_-6PlkD2lEeedevAfF7RPZQ" type="Component_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_-6PlkT2lEeedevAfF7RPZQ" type="Component_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-6Plkj2lEeedevAfF7RPZQ" y="5"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_-6Plkz2lEeedevAfF7RPZQ" type="Component_StructureCompartment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_-6QMoD2lEeedevAfF7RPZQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-6QMoT2lEeedevAfF7RPZQ"/>
+          </children>
+          <element xmi:type="uml:Component" href="PySwarmBot.uml#_-6IQ0D2lEeedevAfF7RPZQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-6O-gT2lEeedevAfF7RPZQ" x="241" y="43"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_byKWoD2nEeedevAfF7RPZQ" type="Component_PackagedElementShape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_byLkwD2nEeedevAfF7RPZQ" type="Component_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_byLkwT2nEeedevAfF7RPZQ" type="Component_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_byML0D2nEeedevAfF7RPZQ" y="5"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_byML0T2nEeedevAfF7RPZQ" type="Component_StructureCompartment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_byML0j2nEeedevAfF7RPZQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_byML0z2nEeedevAfF7RPZQ"/>
+          </children>
+          <element xmi:type="uml:Component" href="PySwarmBot.uml#_byGsQD2nEeedevAfF7RPZQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_byKWoT2nEeedevAfF7RPZQ" x="605" y="41" width="167"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_kYONgD2nEeedevAfF7RPZQ" type="Component_PackagedElementShape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_kYPboD2nEeedevAfF7RPZQ" type="Component_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_kYQCsD2nEeedevAfF7RPZQ" type="Component_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_kYQpwD2nEeedevAfF7RPZQ" y="5"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_kYQpwT2nEeedevAfF7RPZQ" type="Component_StructureCompartment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_kYQpwj2nEeedevAfF7RPZQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kYQpwz2nEeedevAfF7RPZQ"/>
+          </children>
+          <element xmi:type="uml:Component" href="PySwarmBot.uml#_kYJVAD2nEeedevAfF7RPZQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kYO0kD2nEeedevAfF7RPZQ" x="784" y="41"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_VlhJlECZEeeNK9VTwvjoDA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VlhJlUCZEeeNK9VTwvjoDA"/>
+      </children>
+      <element xmi:type="uml:Package" href="PySwarmBot.uml#_Qo1qED2tEeedevAfF7RPZQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VlhJkUCZEeeNK9VTwvjoDA" x="101" y="143" width="1020" height="164"/>
+    </children>
     <children xmi:type="notation:Shape" xmi:id="_gWCIEDsCEeeWWfZIDlYWxQ" type="Component_PackagedElementShape">
       <children xmi:type="notation:DecorationNode" xmi:id="_gYlFwDsCEeeWWfZIDlYWxQ" type="Component_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_gYmT4DsCEeeWWfZIDlYWxQ" type="Component_FloatingNameLabel">
@@ -11,7 +77,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gYtooTsCEeeWWfZIDlYWxQ"/>
       </children>
       <element xmi:type="uml:Component" href="PySwarmBot.uml#_gUpA8DsCEeeWWfZIDlYWxQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gWCIETsCEeeWWfZIDlYWxQ" x="784" y="26"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gWCIETsCEeeWWfZIDlYWxQ" x="882" y="34"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_mGilwDsQEeeWWfZIDlYWxQ" type="Component_PackagedElementShape">
       <children xmi:type="notation:DecorationNode" xmi:id="_mGzEcDsQEeeWWfZIDlYWxQ" type="Component_NameLabel"/>
@@ -23,7 +89,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mG0SkjsQEeeWWfZIDlYWxQ"/>
       </children>
       <element xmi:type="uml:Component" href="PySwarmBot.uml#_mFe10DsQEeeWWfZIDlYWxQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mGilwTsQEeeWWfZIDlYWxQ" x="25" y="16"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mGilwTsQEeeWWfZIDlYWxQ" x="123" y="24"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_RUjIEDsREeej3rYq_QUW2Q" type="Component_PackagedElementShape">
       <children xmi:type="notation:DecorationNode" xmi:id="_RUlkUDsREeej3rYq_QUW2Q" type="Component_NameLabel"/>
@@ -35,7 +101,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RUmLYjsREeej3rYq_QUW2Q"/>
       </children>
       <element xmi:type="uml:Component" href="PySwarmBot.uml#_RS3GADsREeej3rYq_QUW2Q"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RUjIETsREeej3rYq_QUW2Q" x="613" y="24"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RUjIETsREeej3rYq_QUW2Q" x="711" y="32"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_FPRqcD2lEeedevAfF7RPZQ" type="Component_PackagedElementShape">
       <children xmi:type="notation:DecorationNode" xmi:id="_FPV74D2lEeedevAfF7RPZQ" type="Component_NameLabel"/>
@@ -47,19 +113,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FPXKAj2lEeedevAfF7RPZQ"/>
       </children>
       <element xmi:type="uml:Component" href="PySwarmBot.uml#_FPAksD2lEeedevAfF7RPZQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FPRqcT2lEeedevAfF7RPZQ" x="225" y="19"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_-6O-gD2lEeedevAfF7RPZQ" type="Component_PackagedElementShape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_-6PlkD2lEeedevAfF7RPZQ" type="Component_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_-6PlkT2lEeedevAfF7RPZQ" type="Component_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_-6Plkj2lEeedevAfF7RPZQ" y="5"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_-6Plkz2lEeedevAfF7RPZQ" type="Component_StructureCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_-6QMoD2lEeedevAfF7RPZQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-6QMoT2lEeedevAfF7RPZQ"/>
-      </children>
-      <element xmi:type="uml:Component" href="PySwarmBot.uml#_-6IQ0D2lEeedevAfF7RPZQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-6O-gT2lEeedevAfF7RPZQ" x="230" y="159"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FPRqcT2lEeedevAfF7RPZQ" x="323" y="27"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_EzEksD2nEeedevAfF7RPZQ" type="Component_PackagedElementShape">
       <children xmi:type="notation:DecorationNode" xmi:id="_EzFy0D2nEeedevAfF7RPZQ" type="Component_NameLabel"/>
@@ -71,19 +125,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EzGZ4z2nEeedevAfF7RPZQ"/>
       </children>
       <element xmi:type="uml:Component" href="PySwarmBot.uml#_Ey_sMD2nEeedevAfF7RPZQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EzEksT2nEeedevAfF7RPZQ" x="420" y="18"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_PnHWED2nEeedevAfF7RPZQ" type="Component_PackagedElementShape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_PnIkMD2nEeedevAfF7RPZQ" type="Component_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_PnIkMT2nEeedevAfF7RPZQ" type="Component_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_PnJLQD2nEeedevAfF7RPZQ" y="5"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_PnJLQT2nEeedevAfF7RPZQ" type="Component_StructureCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_PnJLQj2nEeedevAfF7RPZQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PnJLQz2nEeedevAfF7RPZQ"/>
-      </children>
-      <element xmi:type="uml:Component" href="PySwarmBot.uml#_PnB2gD2nEeedevAfF7RPZQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PnHWET2nEeedevAfF7RPZQ" x="5" y="157" width="174"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EzEksT2nEeedevAfF7RPZQ" x="518" y="26"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_ZfOqsD2nEeedevAfF7RPZQ" type="Component_PackagedElementShape">
       <children xmi:type="notation:DecorationNode" xmi:id="_ZfP40D2nEeedevAfF7RPZQ" type="Component_NameLabel"/>
@@ -95,31 +137,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZfQf4z2nEeedevAfF7RPZQ"/>
       </children>
       <element xmi:type="uml:Component" href="PySwarmBot.uml#_ZfJyMD2nEeedevAfF7RPZQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZfOqsT2nEeedevAfF7RPZQ" x="419" y="158"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_byKWoD2nEeedevAfF7RPZQ" type="Component_PackagedElementShape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_byLkwD2nEeedevAfF7RPZQ" type="Component_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_byLkwT2nEeedevAfF7RPZQ" type="Component_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_byML0D2nEeedevAfF7RPZQ" y="5"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_byML0T2nEeedevAfF7RPZQ" type="Component_StructureCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_byML0j2nEeedevAfF7RPZQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_byML0z2nEeedevAfF7RPZQ"/>
-      </children>
-      <element xmi:type="uml:Component" href="PySwarmBot.uml#_byGsQD2nEeedevAfF7RPZQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_byKWoT2nEeedevAfF7RPZQ" x="610" y="157" width="167"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_kYONgD2nEeedevAfF7RPZQ" type="Component_PackagedElementShape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_kYPboD2nEeedevAfF7RPZQ" type="Component_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_kYQCsD2nEeedevAfF7RPZQ" type="Component_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_kYQpwD2nEeedevAfF7RPZQ" y="5"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_kYQpwT2nEeedevAfF7RPZQ" type="Component_StructureCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_kYQpwj2nEeedevAfF7RPZQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kYQpwz2nEeedevAfF7RPZQ"/>
-      </children>
-      <element xmi:type="uml:Component" href="PySwarmBot.uml#_kYJVAD2nEeedevAfF7RPZQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kYO0kD2nEeedevAfF7RPZQ" x="811" y="163"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZfOqsT2nEeedevAfF7RPZQ" x="513" y="218"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_53Td4D2qEeedevAfF7RPZQ" type="Package_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_53UE8D2qEeedevAfF7RPZQ" type="Package_NameLabel"/>
@@ -158,7 +176,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l8PTFT2pEeedevAfF7RPZQ"/>
               </children>
               <element xmi:type="uml:Component" href="PySwarmBot.uml#_l8MPwD2pEeedevAfF7RPZQ"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l8OsAT2pEeedevAfF7RPZQ" x="26" y="23"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l8OsAT2pEeedevAfF7RPZQ" x="6" y="18"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_o_UCgD2pEeedevAfF7RPZQ" type="Component_PackagedElementShape">
               <children xmi:type="notation:DecorationNode" xmi:id="_o_UpkD2pEeedevAfF7RPZQ" type="Component_NameLabel"/>
@@ -170,13 +188,13 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o_VQoj2pEeedevAfF7RPZQ"/>
               </children>
               <element xmi:type="uml:Component" href="PySwarmBot.uml#_o_RmQD2pEeedevAfF7RPZQ"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o_UCgT2pEeedevAfF7RPZQ" x="198" y="21"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o_UCgT2pEeedevAfF7RPZQ" x="169" y="16"/>
             </children>
             <styles xmi:type="notation:TitleStyle" xmi:id="_Qhv1gT2rEeedevAfF7RPZQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qhv1gj2rEeedevAfF7RPZQ"/>
           </children>
           <element xmi:type="uml:Package" href="PySwarmBot.uml#_Qhq9AD2rEeedevAfF7RPZQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QhunYT2rEeedevAfF7RPZQ" x="200" y="-1" width="353"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QhunYT2rEeedevAfF7RPZQ" x="212" y="-1" width="340"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_ABmc8D2rEeedevAfF7RPZQ" type="Package_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_ABnEAD2rEeedevAfF7RPZQ" type="Package_NameLabel"/>
@@ -191,7 +209,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KV83Ej2qEeedevAfF7RPZQ"/>
               </children>
               <element xmi:type="uml:Component" href="PySwarmBot.uml#_KV07QD2qEeedevAfF7RPZQ"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KV7B4T2qEeedevAfF7RPZQ" x="-51" y="15"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KV7B4T2qEeedevAfF7RPZQ" x="-23" y="18"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_N_r94D2qEeedevAfF7RPZQ" type="Component_PackagedElementShape">
               <children xmi:type="notation:DecorationNode" xmi:id="_N_tMAD2qEeedevAfF7RPZQ" type="Component_NameLabel"/>
@@ -203,7 +221,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N_tzEj2qEeedevAfF7RPZQ"/>
               </children>
               <element xmi:type="uml:Component" href="PySwarmBot.uml#_N_nscD2qEeedevAfF7RPZQ"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N_r94T2qEeedevAfF7RPZQ" x="145" y="15"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N_r94T2qEeedevAfF7RPZQ" x="182" y="20"/>
             </children>
             <styles xmi:type="notation:TitleStyle" xmi:id="_ABnrET2rEeedevAfF7RPZQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ABnrEj2rEeedevAfF7RPZQ"/>
@@ -215,7 +233,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_53UsAT2qEeedevAfF7RPZQ"/>
       </children>
       <element xmi:type="uml:Package" href="PySwarmBot.uml#_53PzgD2qEeedevAfF7RPZQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_53Td4T2qEeedevAfF7RPZQ" x="6" y="254" width="1023" height="216"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_53Td4T2qEeedevAfF7RPZQ" x="100" y="314" width="1024" height="216"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_my8dMDpqEeeWWfZIDlYWxQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_my8dMTpqEeeWWfZIDlYWxQ"/>
@@ -230,50 +248,53 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_E1lioT2mEeedevAfF7RPZQ"/>
       <element xmi:type="uml:Generalization" href="PySwarmBot.uml#_E1CJAD2mEeedevAfF7RPZQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E1lioj2mEeedevAfF7RPZQ" points="[353, 156, -643984, -643984]$[352, 91, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E3K3AD2mEeedevAfF7RPZQ" id="(0.54,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E3LeED2mEeedevAfF7RPZQ" id="(0.5866666666666667,1.0)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E1lioj2mEeedevAfF7RPZQ" points="[519, 261, -643984, -643984]$[518, 196, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E3K3AD2mEeedevAfF7RPZQ" id="(0.5333333333333333,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E3LeED2mEeedevAfF7RPZQ" id="(0.5780952380952381,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_XtrGID2qEeedevAfF7RPZQ" type="Generalization_Edge" source="_PnHWED2nEeedevAfF7RPZQ" target="_mGilwDsQEeeWWfZIDlYWxQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_XtrtMD2qEeedevAfF7RPZQ" type="Generalization_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_XtrtMT2qEeedevAfF7RPZQ" y="40"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jDRIIECZEeeNK9VTwvjoDA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XtrtMT2qEeedevAfF7RPZQ" x="-1" y="38"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_XtrGIT2qEeedevAfF7RPZQ"/>
       <element xmi:type="uml:Generalization" href="PySwarmBot.uml#_XtVu8D2qEeedevAfF7RPZQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XtrGIj2qEeedevAfF7RPZQ" points="[124, 156, -643984, -643984]$[110, 82, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XuRjED2qEeedevAfF7RPZQ" id="(0.6896551724137931,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XuRjET2qEeedevAfF7RPZQ" id="(0.5733333333333334,0.9571428571428572)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XtrGIj2qEeedevAfF7RPZQ" points="[290, 261, -643984, -643984]$[276, 187, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XuRjED2qEeedevAfF7RPZQ" id="(0.6822660098522167,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XuRjET2qEeedevAfF7RPZQ" id="(0.5704761904761905,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_YqxnkD2qEeedevAfF7RPZQ" type="Generalization_Edge" source="_ZfOqsD2nEeedevAfF7RPZQ" target="_EzEksD2nEeedevAfF7RPZQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_YqyOoD2qEeedevAfF7RPZQ" type="Generalization_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_YqyOoT2qEeedevAfF7RPZQ" y="40"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jEFAcECZEeeNK9VTwvjoDA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YqyOoT2qEeedevAfF7RPZQ" y="39"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_YqxnkT2qEeedevAfF7RPZQ"/>
       <element xmi:type="uml:Generalization" href="PySwarmBot.uml#_Yqgh0D2qEeedevAfF7RPZQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Yqxnkj2qEeedevAfF7RPZQ" points="[467, 157, -643984, -643984]$[475, 85, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YrXdcD2qEeedevAfF7RPZQ" id="(0.32666666666666666,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YrXdcT2qEeedevAfF7RPZQ" id="(0.38,0.9714285714285714)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Yqxnkj2qEeedevAfF7RPZQ" points="[633, 262, -643984, -643984]$[641, 190, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YrXdcD2qEeedevAfF7RPZQ" id="(0.3171428571428571,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YrXdcT2qEeedevAfF7RPZQ" id="(0.37142857142857144,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_ZU2fUD2qEeedevAfF7RPZQ" type="Generalization_Edge" source="_byKWoD2nEeedevAfF7RPZQ" target="_RUjIEDsREeej3rYq_QUW2Q">
       <children xmi:type="notation:DecorationNode" xmi:id="_ZU2fUz2qEeedevAfF7RPZQ" type="Generalization_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZU3GYD2qEeedevAfF7RPZQ" y="40"/>
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_jDubIECZEeeNK9VTwvjoDA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZU3GYD2qEeedevAfF7RPZQ" y="39"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_ZU2fUT2qEeedevAfF7RPZQ"/>
       <element xmi:type="uml:Generalization" href="PySwarmBot.uml#_ZUiWQD2qEeedevAfF7RPZQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZU2fUj2qEeedevAfF7RPZQ" points="[644, 156, -643984, -643984]$[654, 90, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZVkRAD2qEeedevAfF7RPZQ" id="(0.20958083832335328,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZVkRAT2qEeedevAfF7RPZQ" id="(0.28,0.9571428571428572)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZU2fUj2qEeedevAfF7RPZQ" points="[810, 261, -643984, -643984]$[820, 195, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZVkRAD2qEeedevAfF7RPZQ" id="(0.2018819503849444,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZVkRAT2qEeedevAfF7RPZQ" id="(0.2733333333333333,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_Z40IAD2qEeedevAfF7RPZQ" type="Generalization_Edge" source="_kYONgD2nEeedevAfF7RPZQ" target="_gWCIEDsCEeeWWfZIDlYWxQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_Z40vED2qEeedevAfF7RPZQ" type="Generalization_StereotypeLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_w7YsUECKEeeKC6AirgALSA" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Z40vET2qEeedevAfF7RPZQ" x="1" y="39"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Z40vET2qEeedevAfF7RPZQ" x="44" y="67"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_Z40IAT2qEeedevAfF7RPZQ"/>
       <element xmi:type="uml:Generalization" href="PySwarmBot.uml#_Z4gmAD2qEeedevAfF7RPZQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Z40IAj2qEeedevAfF7RPZQ" points="[887, 162, -643984, -643984]$[888, 91, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z5XhoD2qEeedevAfF7RPZQ" id="(0.5013793103448272,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z5YIsD2qEeedevAfF7RPZQ" id="(0.4361685823754786,1.0)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Z40IAj2qEeedevAfF7RPZQ" points="[1053, 267, -643984, -643984]$[1054, 196, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z5XhoD2qEeedevAfF7RPZQ" id="(0.5,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Z5YIsD2qEeedevAfF7RPZQ" id="(0.4247619047619048,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_a1i2AD2qEeedevAfF7RPZQ" type="Generalization_Edge" source="_dbEjQD2pEeedevAfF7RPZQ" target="_PnHWED2nEeedevAfF7RPZQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_a1i2Az2qEeedevAfF7RPZQ" type="Generalization_StereotypeLabel">
@@ -282,7 +303,7 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_a1i2AT2qEeedevAfF7RPZQ"/>
       <element xmi:type="uml:Generalization" href="PySwarmBot.uml#_a1LpoD2qEeedevAfF7RPZQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a1i2Aj2qEeedevAfF7RPZQ" points="[73, 289, -643984, -643984]$[75, 224, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a1i2Aj2qEeedevAfF7RPZQ" points="[239, 394, -643984, -643984]$[241, 329, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a2Ir4D2qEeedevAfF7RPZQ" id="(0.7533333333333333,0.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a2Ir4T2qEeedevAfF7RPZQ" id="(0.41379310344827586,0.9714285714285714)"/>
     </edges>
@@ -293,7 +314,7 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_biWRoT2qEeedevAfF7RPZQ"/>
       <element xmi:type="uml:Generalization" href="PySwarmBot.uml#_bh_FQD2qEeedevAfF7RPZQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_biWRoj2qEeedevAfF7RPZQ" points="[302, 283, -643984, -643984]$[297, 226, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_biWRoj2qEeedevAfF7RPZQ" points="[468, 388, -643984, -643984]$[463, 331, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bi98sD2qEeedevAfF7RPZQ" id="(0.52,0.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bi98sT2qEeedevAfF7RPZQ" id="(0.4533333333333333,0.9714285714285714)"/>
     </edges>
@@ -304,7 +325,7 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_cNhVkT2qEeedevAfF7RPZQ"/>
       <element xmi:type="uml:Generalization" href="PySwarmBot.uml#_cNL-YD2qEeedevAfF7RPZQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cNhVkj2qEeedevAfF7RPZQ" points="[471, 285, -643984, -643984]$[468, 225, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cNhVkj2qEeedevAfF7RPZQ" points="[637, 390, -643984, -643984]$[634, 330, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cONSED2qEeedevAfF7RPZQ" id="(0.3229118773946359,0.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cONSET2qEeedevAfF7RPZQ" id="(0.3331034482758623,1.0)"/>
     </edges>
@@ -315,9 +336,9 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_crENMT2qEeedevAfF7RPZQ"/>
       <element xmi:type="uml:Generalization" href="PySwarmBot.uml#_cqzHcD2qEeedevAfF7RPZQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_crENMj2qEeedevAfF7RPZQ" points="[682, 335, -643984, -643984]$[632, 225, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_crENMj2qEeedevAfF7RPZQ" points="[848, 440, -643984, -643984]$[798, 330, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cro08D2qEeedevAfF7RPZQ" id="(0.5506329113924051,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cro08T2qEeedevAfF7RPZQ" id="(0.11377245508982035,0.9571428571428572)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cro08T2qEeedevAfF7RPZQ" id="(0.5029940119760479,0.9714285714285714)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_dN830D2qEeedevAfF7RPZQ" type="Generalization_Edge" source="_N_r94D2qEeedevAfF7RPZQ" target="_kYONgD2nEeedevAfF7RPZQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_dN9e4D2qEeedevAfF7RPZQ" type="Generalization_StereotypeLabel">
@@ -326,7 +347,7 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_dN830T2qEeedevAfF7RPZQ"/>
       <element xmi:type="uml:Generalization" href="PySwarmBot.uml#_dNchgD2qEeedevAfF7RPZQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dN830j2qEeedevAfF7RPZQ" points="[890, 281, -643984, -643984]$[885, 229, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dN830j2qEeedevAfF7RPZQ" points="[1056, 386, -643984, -643984]$[1051, 334, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dOitsD2qEeedevAfF7RPZQ" id="(0.49333333333333335,0.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dOitsT2qEeedevAfF7RPZQ" id="(0.5,0.9714285714285714)"/>
     </edges>
@@ -339,11 +360,172 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g-yvYz2uEeedevAfF7RPZQ"/>
       </children>
       <element xmi:type="uml:Package" href="PySwarmBot.uml#_LnRNoD2tEeedevAfF7RPZQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g-xhQT2uEeedevAfF7RPZQ" x="98" y="92"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g-xhQT2uEeedevAfF7RPZQ" x="140" y="47"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_IXFWMECVEeeNK9VTwvjoDA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_IXFWMkCVEeeNK9VTwvjoDA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IXFWM0CVEeeNK9VTwvjoDA" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IXFWNECVEeeNK9VTwvjoDA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IXFWNUCVEeeNK9VTwvjoDA"/>
+      </children>
+      <element xmi:type="uml:Package" href="PySwarmBot.uml#_Qo1qED2tEeedevAfF7RPZQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IXFWMUCVEeeNK9VTwvjoDA" x="377" y="48"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_I8yrUECVEeeNK9VTwvjoDA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_I8yrUkCVEeeNK9VTwvjoDA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_I8yrU0CVEeeNK9VTwvjoDA" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_I8yrVECVEeeNK9VTwvjoDA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I8yrVUCVEeeNK9VTwvjoDA"/>
+      </children>
+      <element xmi:type="uml:Package" href="PySwarmBot.uml#_53PzgD2qEeedevAfF7RPZQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I8yrUUCVEeeNK9VTwvjoDA" x="633" y="47"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_xj3noECVEeeNK9VTwvjoDA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_xj3nokCVEeeNK9VTwvjoDA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_xj3no0CVEeeNK9VTwvjoDA" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_xj3npECVEeeNK9VTwvjoDA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xj3npUCVEeeNK9VTwvjoDA"/>
+      </children>
+      <element xmi:type="uml:Package" href="PySwarmBot.uml#_Y8x2MD2tEeedevAfF7RPZQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xj3noUCVEeeNK9VTwvjoDA" x="83" y="364" height="79"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_yCjuwECVEeeNK9VTwvjoDA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_yCjuwkCVEeeNK9VTwvjoDA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_yCjuw0CVEeeNK9VTwvjoDA" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_yCjuxECVEeeNK9VTwvjoDA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yCjuxUCVEeeNK9VTwvjoDA"/>
+      </children>
+      <element xmi:type="uml:Package" href="PySwarmBot.uml#_cAxLoD2tEeedevAfF7RPZQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yCjuwUCVEeeNK9VTwvjoDA" x="202" y="467" height="80"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_yzp0gECVEeeNK9VTwvjoDA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_yzp0gkCVEeeNK9VTwvjoDA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_yzp0g0CVEeeNK9VTwvjoDA" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_yzp0hECVEeeNK9VTwvjoDA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yzp0hUCVEeeNK9VTwvjoDA"/>
+      </children>
+      <element xmi:type="uml:Package" href="PySwarmBot.uml#_hQR9cD2tEeedevAfF7RPZQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yzp0gUCVEeeNK9VTwvjoDA" x="22" y="254" height="80"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_RDaXsECWEeeNK9VTwvjoDA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_RDaXskCWEeeNK9VTwvjoDA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_RDaXs0CWEeeNK9VTwvjoDA" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_RDaXtECWEeeNK9VTwvjoDA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RDaXtUCWEeeNK9VTwvjoDA"/>
+      </children>
+      <element xmi:type="uml:Package" href="PySwarmBot.uml#_z2Xu0D2tEeedevAfF7RPZQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RDaXsUCWEeeNK9VTwvjoDA" x="293" y="256" height="79"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_VVKgwECWEeeNK9VTwvjoDA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_VVKgwkCWEeeNK9VTwvjoDA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_VVKgw0CWEeeNK9VTwvjoDA" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_VVKgxECWEeeNK9VTwvjoDA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VVKgxUCWEeeNK9VTwvjoDA"/>
+      </children>
+      <element xmi:type="uml:Package" href="PySwarmBot.uml#_uaxBwD2tEeedevAfF7RPZQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VVKgwUCWEeeNK9VTwvjoDA" x="394" y="353" height="72"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Yzb-cECWEeeNK9VTwvjoDA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Yzb-ckCWEeeNK9VTwvjoDA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Yzb-c0CWEeeNK9VTwvjoDA" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Yzb-dECWEeeNK9VTwvjoDA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yzb-dUCWEeeNK9VTwvjoDA"/>
+      </children>
+      <element xmi:type="uml:Package" href="PySwarmBot.uml#_xXkxID2tEeedevAfF7RPZQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yzb-cUCWEeeNK9VTwvjoDA" x="518" y="469" height="76"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_fsVB8T2uEeedevAfF7RPZQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_fsVB8j2uEeedevAfF7RPZQ"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_fsVB8z2uEeedevAfF7RPZQ">
+      <owner xmi:type="uml:Model" href="PySwarmBot.uml#_mvHGEDpqEeeWWfZIDlYWxQ"/>
+    </styles>
+    <element xmi:type="uml:Model" href="PySwarmBot.uml#_mvHGEDpqEeeWWfZIDlYWxQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_BJ9ywECWEeeNK9VTwvjoDA" type="Dependency_Edge" source="_g-xhQD2uEeedevAfF7RPZQ" target="_yzp0gECVEeeNK9VTwvjoDA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_BJ9yw0CWEeeNK9VTwvjoDA" type="Dependency_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BJ9yxECWEeeNK9VTwvjoDA" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_BJ9yxUCWEeeNK9VTwvjoDA" type="Dependency_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BJ9yxkCWEeeNK9VTwvjoDA" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_BJ9ywUCWEeeNK9VTwvjoDA"/>
+      <element xmi:type="uml:Dependency" href="PySwarmBot.uml#_BJ7WgECWEeeNK9VTwvjoDA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BJ9ywkCWEeeNK9VTwvjoDA" points="[218, 196, -643984, -643984]$[104, 280, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BKQtsECWEeeNK9VTwvjoDA" id="(0.5264838864838862,0.997142857142857)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BKQtsUCWEeeNK9VTwvjoDA" id="(0.5490909090909092,0.325)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_CYKrQECWEeeNK9VTwvjoDA" type="Dependency_Edge" source="_g-xhQD2uEeedevAfF7RPZQ" target="_xj3noECVEeeNK9VTwvjoDA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_CYKrQ0CWEeeNK9VTwvjoDA" type="Dependency_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FFQjoECWEeeNK9VTwvjoDA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CYKrRECWEeeNK9VTwvjoDA" x="1" y="38"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CYKrRUCWEeeNK9VTwvjoDA" type="Dependency_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FFS_4ECWEeeNK9VTwvjoDA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CYKrRkCWEeeNK9VTwvjoDA" x="1" y="58"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_CYKrQUCWEeeNK9VTwvjoDA"/>
+      <element xmi:type="uml:Dependency" href="PySwarmBot.uml#_CX9P4ECWEeeNK9VTwvjoDA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CYKrQkCWEeeNK9VTwvjoDA" points="[248, 196, -643984, -643984]$[220, 395, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CYdmMECWEeeNK9VTwvjoDA" id="(0.7238095238095238,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CYdmMUCWEeeNK9VTwvjoDA" id="(0.7304761904761905,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_EJoB0ECWEeeNK9VTwvjoDA" type="Dependency_Edge" source="_g-xhQD2uEeedevAfF7RPZQ" target="_yCjuwECVEeeNK9VTwvjoDA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_EJoB00CWEeeNK9VTwvjoDA" type="Dependency_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FkRa4ECWEeeNK9VTwvjoDA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_EJoB1ECWEeeNK9VTwvjoDA" x="-2" y="37"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_EJoB1UCWEeeNK9VTwvjoDA" type="Dependency_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FkbL4ECWEeeNK9VTwvjoDA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_EJoB1kCWEeeNK9VTwvjoDA" x="-1" y="58"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_EJoB0UCWEeeNK9VTwvjoDA"/>
+      <element xmi:type="uml:Dependency" href="PySwarmBot.uml#_EJVG4ECWEeeNK9VTwvjoDA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EJoB0kCWEeeNK9VTwvjoDA" points="[268, 196, -643984, -643984]$[301, 472, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EKGi8ECWEeeNK9VTwvjoDA" id="(0.8533333333333334,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EKGi8UCWEeeNK9VTwvjoDA" id="(0.3904761904761905,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_NdxmYECZEeeNK9VTwvjoDA" type="Dependency_Edge" source="_IXFWMECVEeeNK9VTwvjoDA" target="_RDaXsECWEeeNK9VTwvjoDA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_NdxmY0CZEeeNK9VTwvjoDA" type="Dependency_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NdxmZECZEeeNK9VTwvjoDA" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_NdxmZUCZEeeNK9VTwvjoDA" type="Dependency_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NdxmZkCZEeeNK9VTwvjoDA" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_NdxmYUCZEeeNK9VTwvjoDA"/>
+      <element xmi:type="uml:Dependency" href="PySwarmBot.uml#_NdU6cECZEeeNK9VTwvjoDA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NdxmYkCZEeeNK9VTwvjoDA" points="[417, 197, -643984, -643984]$[381, 282, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NeIywECZEeeNK9VTwvjoDA" id="(0.2696551724137934,0.9980952380952379)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NeIywUCZEeeNK9VTwvjoDA" id="(0.5914942528735632,0.33273056057866174)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_OE5QwECZEeeNK9VTwvjoDA" type="Dependency_Edge" source="_IXFWMECVEeeNK9VTwvjoDA" target="_VVKgwECWEeeNK9VTwvjoDA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_OE5Qw0CZEeeNK9VTwvjoDA" type="Dependency_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OE5QxECZEeeNK9VTwvjoDA" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_OE5QxUCZEeeNK9VTwvjoDA" type="Dependency_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OE5QxkCZEeeNK9VTwvjoDA" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_OE5QwUCZEeeNK9VTwvjoDA"/>
+      <element xmi:type="uml:Dependency" href="PySwarmBot.uml#_OEwG0ECZEeeNK9VTwvjoDA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OE5QwkCZEeeNK9VTwvjoDA" points="[465, 197, -643984, -643984]$[469, 379, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OFaOIECZEeeNK9VTwvjoDA" id="(0.5911962833914053,0.9980952380952379)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_QU9O4ECZEeeNK9VTwvjoDA" type="Dependency_Edge" source="_IXFWMECVEeeNK9VTwvjoDA" target="_Yzb-cECWEeeNK9VTwvjoDA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_QU9O40CZEeeNK9VTwvjoDA" type="Dependency_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QU9O5ECZEeeNK9VTwvjoDA" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QU9O5UCZEeeNK9VTwvjoDA" type="Dependency_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QU9O5kCZEeeNK9VTwvjoDA" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_QU9O4UCZEeeNK9VTwvjoDA"/>
+      <element xmi:type="uml:Dependency" href="PySwarmBot.uml#_QUps4ECZEeeNK9VTwvjoDA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QU9O4kCZEeeNK9VTwvjoDA" points="[517, 197, -643984, -643984]$[600, 495, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QVT0MECZEeeNK9VTwvjoDA" id="(0.9418105423987777,0.9980952380952379)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QVT0MUCZEeeNK9VTwvjoDA" id="(0.5484160937102107,0.34774436090225436)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_5ivJYECaEeeNK9VTwvjoDA" type="PapyrusUMLClassDiagram" name="Swarm2D" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_5ivJYUCaEeeNK9VTwvjoDA" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_5ivJYkCaEeeNK9VTwvjoDA"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_5ivJY0CaEeeNK9VTwvjoDA">
       <owner xmi:type="uml:Model" href="PySwarmBot.uml#_mvHGEDpqEeeWWfZIDlYWxQ"/>
     </styles>
     <element xmi:type="uml:Model" href="PySwarmBot.uml#_mvHGEDpqEeeWWfZIDlYWxQ"/>

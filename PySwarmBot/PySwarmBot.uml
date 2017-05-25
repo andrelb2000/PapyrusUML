@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_mvHGEDpqEeeWWfZIDlYWxQ" name="RootElement">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_mvHGEDpqEeeWWfZIDlYWxQ" name="PySwarmBot">
   <packagedElement xmi:type="uml:Package" xmi:id="_53PzgD2qEeedevAfF7RPZQ" name="UAV">
     <packagedElement xmi:type="uml:Package" xmi:id="_G8ekYD2rEeedevAfF7RPZQ" name="UAVSim">
       <packagedElement xmi:type="uml:Component" xmi:id="_dbBf8D2pEeedevAfF7RPZQ" name="SwarmBotUAV">
@@ -27,39 +27,83 @@
   <packagedElement xmi:type="uml:Package" xmi:id="_LnRNoD2tEeedevAfF7RPZQ" name="Swarm2D">
     <packagedElement xmi:type="uml:Package" xmi:id="_Y8x2MD2tEeedevAfF7RPZQ" name="Sim2D">
       <packagedElement xmi:type="uml:Component" xmi:id="_mFe10DsQEeeWWfZIDlYWxQ" name="SwarmBot">
-        <packagedElement xmi:type="uml:Class" xmi:id="_xMUG4D2uEeedevAfF7RPZQ" name="CellBot"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lNIuIEDaEeePbtoJfHET6w" name="SwarmBot"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_cAxLoD2tEeedevAfF7RPZQ" name="Bot2D">
-      <packagedElement xmi:type="uml:Component" xmi:id="_FPAksD2lEeedevAfF7RPZQ" name="CellBot"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_Ey_sMD2nEeedevAfF7RPZQ" name="CellHub"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_FPAksD2lEeedevAfF7RPZQ" name="CellBot">
+        <packagedElement xmi:type="uml:Class" xmi:id="_pV42wEDbEeePbtoJfHET6w" name="CellBot"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rPakMEDbEeePbtoJfHET6w" name="CellBotObs"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tUNGcEDbEeePbtoJfHET6w" name="CellBotTgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_vEiboEDbEeePbtoJfHET6w" name="CellMovControl"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xR0ykEDbEeePbtoJfHET6w" name="CellMovProcessor"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_Ey_sMD2nEeedevAfF7RPZQ" name="CellHub">
+        <packagedElement xmi:type="uml:Class" xmi:id="_aMpxUEDcEeePbtoJfHET6w" name="CellHub"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cImgoEDcEeePbtoJfHET6w" name="CellHubObs"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_el2mMEDcEeePbtoJfHET6w" name="CellHubTgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_g_W0MEDcEeePbtoJfHET6w" name="CellMessage"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_hQR9cD2tEeedevAfF7RPZQ" name="2DGui">
-      <packagedElement xmi:type="uml:Component" xmi:id="_gUpA8DsCEeeWWfZIDlYWxQ" name="SwarmView"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_RS3GADsREeej3rYq_QUW2Q" name="SwarmControlView"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_gUpA8DsCEeeWWfZIDlYWxQ" name="SwarmView">
+        <packagedElement xmi:type="uml:Class" xmi:id="_SA8esEDdEeePbtoJfHET6w" name="SwarmView"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_RS3GADsREeej3rYq_QUW2Q" name="SwarmControlView">
+        <packagedElement xmi:type="uml:Class" xmi:id="_TzkS4EDdEeePbtoJfHET6w" name="SwarmControlView"/>
+      </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_BJ7WgECWEeeNK9VTwvjoDA" client="_LnRNoD2tEeedevAfF7RPZQ" supplier="_hQR9cD2tEeedevAfF7RPZQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_CX9P4ECWEeeNK9VTwvjoDA" client="_LnRNoD2tEeedevAfF7RPZQ" supplier="_Y8x2MD2tEeedevAfF7RPZQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_EJVG4ECWEeeNK9VTwvjoDA" client="_LnRNoD2tEeedevAfF7RPZQ" supplier="_cAxLoD2tEeedevAfF7RPZQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_Qo1qED2tEeedevAfF7RPZQ" name="Swarm3D">
     <packagedElement xmi:type="uml:Package" xmi:id="_uaxBwD2tEeedevAfF7RPZQ" name="Sim3D">
       <packagedElement xmi:type="uml:Component" xmi:id="_PnB2gD2nEeedevAfF7RPZQ" name="SwarmBot3D">
         <generalization xmi:type="uml:Generalization" xmi:id="_XtVu8D2qEeedevAfF7RPZQ" general="_mFe10DsQEeeWWfZIDlYWxQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_4j2qMEDlEeePbtoJfHET6w" name="SwarmBot3D"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_xXkxID2tEeedevAfF7RPZQ" name="Bot3D">
       <packagedElement xmi:type="uml:Component" xmi:id="_ZfJyMD2nEeedevAfF7RPZQ" name="CellHub3D">
         <generalization xmi:type="uml:Generalization" xmi:id="_Yqgh0D2qEeedevAfF7RPZQ" general="_Ey_sMD2nEeedevAfF7RPZQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_VSBe0EDmEeePbtoJfHET6w" name="CellHub3D"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_-6IQ0D2lEeedevAfF7RPZQ" name="CellBot3D">
         <generalization xmi:type="uml:Generalization" xmi:id="_E1CJAD2mEeedevAfF7RPZQ" general="_FPAksD2lEeedevAfF7RPZQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Sh0oEEDmEeePbtoJfHET6w" name="CellBot3D"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_z2Xu0D2tEeedevAfF7RPZQ" name="3DGui">
-      <packagedElement xmi:type="uml:Component" xmi:id="_kYJVAD2nEeedevAfF7RPZQ" name="SwarmView3D">
-        <generalization xmi:type="uml:Generalization" xmi:id="_Z4gmAD2qEeedevAfF7RPZQ" general="_gUpA8DsCEeeWWfZIDlYWxQ"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_byGsQD2nEeedevAfF7RPZQ" name="SwarmControlView3D">
         <generalization xmi:type="uml:Generalization" xmi:id="_ZUiWQD2qEeedevAfF7RPZQ" general="_RS3GADsREeej3rYq_QUW2Q"/>
-        <packagedElement xmi:type="uml:Package" xmi:id="_DUp3MD2tEeedevAfF7RPZQ" name="S"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZARSMEDmEeePbtoJfHET6w" name="SwarmControlView3D"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_kYJVAD2nEeedevAfF7RPZQ" name="SwarmView3D">
+        <generalization xmi:type="uml:Generalization" xmi:id="_Z4gmAD2qEeedevAfF7RPZQ" general="_gUpA8DsCEeeWWfZIDlYWxQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_zWAP0EDmEeePbtoJfHET6w" name="SwarmView3D"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_NdU6cECZEeeNK9VTwvjoDA" client="_Qo1qED2tEeedevAfF7RPZQ" supplier="_z2Xu0D2tEeedevAfF7RPZQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_OEwG0ECZEeeNK9VTwvjoDA" client="_Qo1qED2tEeedevAfF7RPZQ" supplier="_uaxBwD2tEeedevAfF7RPZQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_QUps4ECZEeeNK9VTwvjoDA" client="_Qo1qED2tEeedevAfF7RPZQ" supplier="_xXkxID2tEeedevAfF7RPZQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_dd2GMEDlEeePbtoJfHET6w" name="SwarmXD">
+    <packagedElement xmi:type="uml:Package" xmi:id="_l0dy4EDlEeePbtoJfHET6w" name="SimXD">
+      <packagedElement xmi:type="uml:Component" xmi:id="_A9sNgEDnEeePbtoJfHET6w" name="SwarmBotXD">
+        <packagedElement xmi:type="uml:Class" xmi:id="_HAnZQEDnEeePbtoJfHET6w" name="SwarmBotXD"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n7LAsEDlEeePbtoJfHET6w" name="BotXD">
+      <packagedElement xmi:type="uml:Component" xmi:id="_Lx5W8EDnEeePbtoJfHET6w" name="CellHubXD"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_P0x9kEDnEeePbtoJfHET6w" name="CellBotXD"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_p1tawEDlEeePbtoJfHET6w" name="XDGui">
+      <packagedElement xmi:type="uml:Component" xmi:id="_dCCpEEDnEeePbtoJfHET6w" name="SwarmControlViewXD">
+        <packagedElement xmi:type="uml:Class" xmi:id="_kuPfwEDnEeePbtoJfHET6w" name="SwarmControlViewXD"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_g50L4EDnEeePbtoJfHET6w" name="SwarmViewXD">
+        <packagedElement xmi:type="uml:Class" xmi:id="_pjVmcEDnEeePbtoJfHET6w" name="SwarmViewXD"/>
       </packagedElement>
     </packagedElement>
   </packagedElement>
